@@ -1,4 +1,4 @@
-#Abstract factory pattern\
+# Abstract factory pattern
 
 ### Provide an interface for creating families of related or dependent objects without specifying their concrete classes
 
@@ -10,15 +10,15 @@ The abstract factory pattern provides a way to encapsulate a group of individual
  *How can a class be independent of how the objects it requires are created?
  *How can families of related or dependent objects be created?
 
-#The Abstract Factory design pattern describes how to solve such problems:
+# The Abstract Factory design pattern describes how to solve such problems:
  *Encapsulate object creation in a separate (factory) object. That is, define an interface (AbstractFactory) for creating objects, and implement the interface.
  *A class delegates object creation to a factory object instead of creating objects directly.
 
-#advantages:
+# advantages:
   *Allows you to hide implementation of an application seam (the core interfaces that make up your application)
   *Allows you to easily test the seam of an application (that is to mock/stub) certain parts of your application so you can build and test the other parts
   *Allows you to change the design of your application more readily, this is known as loose coupling.
 
-#disadvantages:
+# disadvantages:
   *Makes code more difficult to read as all of your code is behind an abstraction that may in turn hide abstractions.
   *Can be classed as an anti-pattern when it is incorrectly used, for example some people use it to wire up a whole application when using an IOC container, instead use Dependency Injection.

@@ -1,5 +1,5 @@
-#Builder pattern
-The intent of the Builder design pattern is to separate the construction of a complex object from its representation. By doing so the same construction process can create different representations.
+# Builder pattern
+### The intent of the Builder design pattern is to separate the construction of a complex object from its representation. By doing so the same construction process can create different representations.
 
 ### advantages
  * Allows you to vary a product’s internal representation.

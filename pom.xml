@@ -25,6 +25,7 @@
         <module>prototype</module>
         <module>abstract-factory</module>
         <module>factory-method</module>
+        <module>strategy</module>
     </modules>
 
     <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
