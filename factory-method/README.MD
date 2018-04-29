@@ -5,9 +5,9 @@
 * avoid the inherent cost of creating a new object in the standard way (e.g., using the 'new' keyword) when it is prohibitively expensive for a given application.
 
 ### The Factory Method design pattern solves problems like:
- *How can an object be created so that subclasses can redefine which class to instantiate?
- *How can a class defer instantiation to subclasses?
+ * How can an object be created so that subclasses can redefine which class to instantiate?
+ * How can a class defer instantiation to subclasses?
 
 ### The Factory Method design pattern describes how to solve such problems:
- *Define a separate operation (factory method) for creating an object.
- *Create an object by calling a factory method.
+ * Define a separate operation (factory method) for creating an object.
+ * Create an object by calling a factory method.
