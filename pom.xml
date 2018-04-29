@@ -21,9 +21,10 @@
         </plugins>
     </build>
     <modules>
-        <module>builder-pattern</module>
-        <module>prototype-pattern</module>
+        <module>builder</module>
+        <module>prototype</module>
         <module>abstract-factory</module>
+        <module>factory-method</module>
     </modules>
 
     <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
